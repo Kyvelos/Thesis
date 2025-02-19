@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Virtual environment
 env/
 
@@ -12,6 +11,7 @@ __pycache__/
 .idea/
 
 # Data (αν δε θέλεις να ανεβάσεις τα δεδομένα των ασθενών)
+resources/
 Resources/
 
 # Jupyter Notebook checkpoints
@@ -20,17 +20,3 @@ Resources/
 # Logs
 logs/
 *.log
-=======
-# Ignore virtual environment
-env/
-
-# Ignore compiled Python files
-__pycache__/
-
-# Ignore VS Code settings
-.vscode/
-
-# Ignore large datasets (optional)
-Resources/*.csv
-Resources/*.xlsx
->>>>>>> 2c58768088a7f66239d359ef3f1d6d9225c99da9

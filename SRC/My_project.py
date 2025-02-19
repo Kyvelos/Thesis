@@ -1,11 +1,11 @@
-<<<<<<< HEAD
+
 import nrrd
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.widgets import Slider
 
 # Load the NRRD file
-file_path = "C:/02_Thesis/Resources/Patient_2/Segmentation.seg.nrrd"
+file_path = "C:/02_Thesis/Resources/Patient_9/Segmentation.seg.nrrd"
 data, header = nrrd.read(file_path)
 
 # Initialize figure
@@ -44,7 +44,3 @@ fig.canvas.mpl_connect("key_press_event", on_key)
 
 plt.show()
 
-=======
-
-print("Hello, GitHub! My project is working 🚀")
->>>>>>> 2c58768088a7f66239d359ef3f1d6d9225c99da9
